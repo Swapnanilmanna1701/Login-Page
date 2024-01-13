@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lobster", "Helvet;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* it's impotent */
+    /*background-color: #56e020;*/
+    background: url('https://i.pinimg.com/originals/47/0a/19/470a19a36904fe200610cc1f41eb00d9.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    width: 400px;
+    height: 470px;
+    background: transparent;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 30px 30px ;
+    backdrop-filter: blur(20px);
+}
+.wrapper h1 {
+   text-align: center;
+   font-size: 40px;
+
+}
+.wrapper .input-box{
+    height: 40px;
+    width: 80%;
+    margin: 30px ;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+    background: transparent;
+    color: #ffffff;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.input-box input::placeholder{
+    color: #ffffff;
+    font-size: 18px;
+}
+.input-box i{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    transform: translateY(-230%);
+    color: #fff;
+}
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.remember-forgot label input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.remember-forgot a{
+    text-decoration: none;
+    color: #5fcff1;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+.register-link{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.register-link a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.register-link a:hover{
+    text-decoration: underline;
+    color: #d80b94;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #06177c;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}/*cursor: pointer; outline; */
+.btn:hover{
+    background: #d80b94;
+}
+
+
